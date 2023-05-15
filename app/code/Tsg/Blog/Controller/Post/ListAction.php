@@ -16,7 +16,7 @@ class ListAction implements HttpGetActionInterface
         $this->pageFactory = $pageFactory;
     }
 
-    public function execute()
+    public function execute() : Page
     {
         return $this->pageFactory->create();
     }
