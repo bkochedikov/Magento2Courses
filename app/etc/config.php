@@ -350,6 +350,7 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
-        'Tsg_Blog' => 1
+        'Tsg_Blog' => 1,
+        'Tsg_BlogExtra' => 1
     ]
 ];

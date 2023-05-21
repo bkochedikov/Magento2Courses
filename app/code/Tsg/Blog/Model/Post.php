@@ -29,7 +29,7 @@ class Post extends AbstractModel implements PostInterface
 
     public function setContent($content)
     {
-        return $this->getData(self::CONTENT, $content);
+        return $this->setData(self::CONTENT, $content);
     }
 
     public function getCreatedAt()
